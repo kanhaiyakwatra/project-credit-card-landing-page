@@ -8,6 +8,7 @@
 }
 body{
     background: #000;
+    position: relative;
 }
 header
 {
@@ -172,7 +173,7 @@ header
 {
     position: absolute;
     right: 0;
-    width: 70%;
+    width: 65%;
     z-index: 1000;
 }
 .hero-img img:first-child
@@ -831,8 +832,8 @@ header
     }
     .logo-container .sub-container img
     {
-        width: 100px;
-        margin:12px 25px;
+        width: 80px;
+        margin:12px 15px;
     }
     .choice-container h1 
     {
@@ -892,5 +893,25 @@ header
     {
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .footer-logo img
+    {
+        height: 35px;
+    }
+}
+
+@media (max-width:479px)
+{
+    .customsing-text h1
+    {
+        width: 90%;
+    }
+    .footer-logo img
+    {
+        height: 30px;
+    }
+    .main-text 
+    {
+        width: 80%;
     }
 }

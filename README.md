@@ -4,4 +4,4 @@
 
 HTML and CSS, The landing page is Responsive work well on Laptop, tablet and mobile device.
 
-### Here you can prview the project [view](#)
+### Here you can prview the project [view](https://ornate-horse-8be795.netlify.app/)

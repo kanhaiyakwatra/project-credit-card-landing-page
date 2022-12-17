@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <title>Credit Card Landing Page</title>
+</head>
+
+<body>
+    <!-- Header  -->
+    <header>
+        <nav class="navbar">
+            <div class="logo"><img src="./Assets/Icons/Logo.svg" alt="Logo"></div>
+            <button class="m-btn" onclick="display()">
+                <div class="hammerburg">
+                    <div class="line line-top"></div>
+                    <div class="line line-center"></div>
+                    <div class="line line-bottom"></div>
+                </div>
+            </button>
+            <div class="navigation-center hide" id="dropdown">
+                <ul class="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <div class="navigation-right">
+                <select name="language" id="lang">
+                    <option value="Eng">Eng</option>
+                    <option value="Eng">DE</option>
+                    <option value="Eng">FR</option>
+                </select>
+                <div class="btn-bg">
+                    <button class="contact">Contact Us</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="hero-img">
+        <img src="./Assets/Photos/backCards.png" alt="back cards">
+        <img src="./Assets/Photos/frontCards.png" alt="front cards">
+    </div>
+    <div class="hero-container">
+        <div class="hero">
+            <h1 class="main-heading">Simplify All Transactions<br>in <span class="main-color">One Card</span></h1>
+            <p class="main-text">Hurry up and join now, with this you can manage your daily <br>finances easily and
+                safely.</p>
+            <div class="get-btn">
+                <img src="./Assets/Icons/btn-pink-bg.svg" alt="bg" class="get-bg">
+                <button>GET STARTED<i><img src="./Assets/Icons/RightArrow.svg" alt="Arrow"></i></button>
+            </div>
+            <div class="number-counter">
+                <div class="first-counter">
+                    <h1>42K<span class="plus">+</span></h1>
+                    <div class="exp">
+                        <h4>Happy</h1>
+                            <h4>Active User</h4>
+                    </div>
+                </div>
+                <img src="./Assets/Icons/Vector 402.svg" alt="divider">
+                <div class="second-counter">
+                    <h1>12K<span class="plus">+</span></h1>
+                    <div class="exp">
+                        <h4>Year</h1>
+                            <h4>Experience</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="logo-container">
+        <div class="sub-container">
+            <img src="./Assets/Icons/Logo.svg" alt="logo">
+            <img src="./Assets/Icons/Logo.svg" alt="logo">
+            <img src="./Assets/Icons/Logo.svg" alt="logo">
+            <img src="./Assets/Icons/Logo.svg" alt="logo">
+            <img src="./Assets/Icons/Logo.svg" alt="logo">
+        </div>
+    </div>
+    <div class="features-container">
+        <div class="feauters">
+            <div>
+                <h1>The best payment service for <span class="main-color">your transactions. </span></h1>
+            </div>
+            <div>
+                <p>The following are the services we provide to our users, with the services we maximize. It is hoped
+                    that users are satisfied with what we provide.</p>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card1 card">
+                <img src="./Assets/Icons/dollar-circle.svg" alt="img.png">
+                <h2>Free transaction fee</h2>
+            </div>
+            <div class="card2 card">
+                <img src="./Assets/Icons/cloud-add.svg" alt="img.png">
+                <h2>Easy to access anytime and anywhere</h2>
+            </div>
+            <div class="card3 card">
+                <img src="./Assets/Icons/lock.svg" alt="img.png">
+                <h2>Guaranteed safety</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-choice">
+        <div class="choice-container">
+            <h1>Unique and interesting</h1>
+            <h1 class="main-color">card choices</h1>
+            <p>We provide card editing features, where user can edit unique cards according to wishes and preferences of
+                the users themselves.</p>
+            <img class="vcards" src="./Assets/Photos/VCards.png" alt="vcards">
+        </div>
+    </div>
+    <div class="reviews">
+        <div class="review-heading">
+            <h2>Customers are satisfied with <span class="main-color">the features</span> we provide</h2>
+            <p>With the various features that we provide, therefore many customers like the feature that we provide.
+            </p>
+        </div>
+    </div>
+    <div class="rating-card">
+        <div class="rating-container">
+            <div class="rating rating-one">
+                <img src="./Assets/Icons/5stars.svg" alt="stars">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illum cupiditate similique sapiente
+                    ipsum placeat cumque voluptatem repellendus!</h2>
+                <h2>Kanhaiya</h2>
+                <span class="location">New Delhi, India</span>
+            </div>
+            <div class="rating rating-two">
+                <img src="./Assets/Icons/5stars.svg" alt="stars">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illum cupiditate similique sapiente
+                    ipsum placeat cumque voluptatem repellendus!</h2>
+                <h2>Kanhaiya</h2>
+                <span class="location">New Delhi, India</span>
+            </div>
+            <div class="rating rating-three">
+                <img src="./Assets/Icons/5stars.svg" alt="stars">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illum cupiditate similique sapiente
+                    ipsum placeat cumque voluptatem repellendus!</h2>
+                <h2>Kanhaiya</h2>
+                <span class="location">New Delhi, India</span>
+            </div>
+            <div class="rating rating-four">
+                <img src="./Assets/Icons/5stars.svg" alt="stars">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illum cupiditate similique sapiente
+                    ipsum placeat cumque voluptatem repellendus!</h2>
+                <h2>Kanhaiya</h2>
+                <span class="location">New Delhi, India</span>
+            </div>
+        </div>
+        <div class="pagination">
+            <button class="active-page"></button>
+            <button class="page-btn"></button>
+            <button class="page-btn"></button>
+            <button class="page-btn"></button>
+        </div>
+    </div>
+    <div class="customsing">
+        <div class="customsing-container">
+            <div class="customsing-text">
+                <h1>Let's start <span> customing </span> your card now</h1>
+            </div>
+            <div class="get-started-btn">
+                <img src="./Assets/Icons/btn-pink-bg.svg" alt="bg" class="get-set-bg">
+                <button>GET STARTED<i><img src="./Assets/Icons/RightArrow.svg" alt="Arrow"></i></button>
+            </div>
+        </div>
+        <div class="images-container">
+            <div class="rectangle-one"><img src="./Assets/Photos/Rectangle 6773.png" alt="ract"></div>
+            <div class="rectangle-two"><img src="./Assets/Photos/Rectangle 6774.png" alt="ract2"></div>
+            <div class="left-diamond diamond-one"><img src="./Assets/Photos/Diamond-left.png" alt="diamond left"></div>
+            <div class="right-diamond diamond-two"><img src="./Assets/Photos/Diamond-right.png" alt="diamond right"></div>
+        </div>
+    </div>
+
+    <!-- footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo"><img src="./Assets/Icons/Logo.svg" alt="Logo"></div>
+            <div class="footer-nav">
+                <ul class="footer-nav-list">
+                    <li>Branding</li>
+                    <li>Contact Us</li>
+                    <li>Privacy Policy</li>
+                    <li>FAQs</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script>
+        //var click = document.getElementsByClassName("m-btn");
+        var menu = document.getElementById("dropdown");
+        function display() {
+            console.log("run function");
+            if (menu.classList.contains('hide')) {
+                menu.classList.remove('hide');
+            }
+            else {
+                menu.classList.add('hide');
+            }
+        }
+    </script>
+</body>
+
+</html>

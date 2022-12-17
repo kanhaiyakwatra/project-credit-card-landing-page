@@ -531,9 +531,9 @@ header
     .navigation-center
     {
         position:absolute;
-        top:8%;
+        top:1%;
         z-index: 1000;
-        height: 150px;
+        height: 175px;
         width: 90%;
         z-index: 100000000;
         overflow: scroll;
@@ -550,7 +550,7 @@ header
     }
     .nav-list>li
     {
-        padding:7px 2px;
+        padding:15px 2px;
         border-bottom: 1px solid #cecece;
         
     }

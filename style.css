@@ -536,7 +536,8 @@ header
         height: 175px;
         width: 90%;
         z-index: 100000000;
-        overflow: scroll;
+        overflow-x: hidden;
+        overflow-y: scroll;
         background-color: #000;
     }
     .hide
